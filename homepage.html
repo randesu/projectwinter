@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-image: url(https://wallpapers.com/images/featured/winter-cmgw5mq23dasvttz.jpg);
+        }
+        .addwrap{
+            width: 500px;
+            height: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            background-color: rgb(167,198,239, 0.733);
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="addwrap">
+    <form >
+        <div class="itembox">
+        <label for="itemname" id="itemnamelabel">Item Name</label><br>
+        <input type="text" id="itemname" placeholder="input your item here"><br>
+        </div>
+
+        <div>
+        <label for="itemtotal">How much?</label><br>
+        <input type="number" id="itemtotal" placeholder="input how much item here"><br>
+        </div>
+
+        <button type="button" id="additem" onclick=addthisitem()>Add item</button>
+    </form>
+    </div>
+    
+    
+</body>
+</html>
